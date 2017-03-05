@@ -3,8 +3,8 @@
 Programación y Aplicaciones Para la Web 2
 
 Equipo conformado por:
-- Brede Treviño Sara Victoria (1585928
-- Martínez Monjarás Edgar Alfredo
+- Brede Treviño Sara Victoria (1585928)
+- Martínez Monjarás Edgar Alfredo (1567116)
 
 Descripción del proyecto:
 
