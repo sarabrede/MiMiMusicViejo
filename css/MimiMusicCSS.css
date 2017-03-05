@@ -1,0 +1,104 @@
+
+html, body, .containerPanel, .loginPanel, .imagePanel
+{
+	height: 100%;
+}
+
+
+.rowLoginPanel
+{
+	height: 95%;
+
+}
+
+.footer
+{
+	height: 5%;
+	background-color: #78c9af;
+}
+
+.loginPanel
+{
+	background-color: #505250;
+	padding: 5%;
+}
+
+.imagePanel
+{
+	background: url("../images/backgroundImage1.png") no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+	
+
+}
+
+.musicPanel
+{
+	margin: auto;
+	margin-top: 30px;
+	background-color: rgba(80, 82, 80, .25);
+	height: 90%;
+	width: 95%;
+
+}
+
+.footer > div
+{
+	padding: 5px;
+}
+
+.footer > div > p
+{
+	margin: 0;
+}
+
+.loginPanel form > label:first-child
+{
+	font: normal bold 20px/30px verdana;
+	/*font-size: 3vw;*/
+	font-size: 2vw;
+	margin:5% 0;
+	color: #f9f3f2;
+}
+
+.logoRow
+{
+	width:100%;
+	height:30%;
+	margin: 0px;
+}
+
+.logo
+{
+	height: 100%;
+background: url("../images/backgroundImage1.png") no-repeat ; 
+background-size: 100%;
+padding: 0px;
+}
+
+.btnLogin
+{
+	background-color: #78c9af;
+	font-size: 2vw;
+	color: #f9f3f2;
+}
+
+.loginPanel p
+{
+	margin: 3% 0;
+	color: #d3ece4;
+	font-size: 1.5vw;
+}
+
+.loginPanel a
+{
+	color: #78c9af;
+}
+
+.Terms
+{
+	color: #d3ece4;
+	font-size: 1vw;
+}
