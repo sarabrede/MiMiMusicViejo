@@ -1,9 +1,19 @@
 
+/*Moví esto*/
 html, body, .containerPanel, .loginPanel, .imagePanel
 {
 	height: 100%;
+	font-family: "Helvetica",Arial,sans-serif;
 }
 
+/*Moví esto*/
+.btn
+{
+	background-color: #78c9af;
+	font-family: "Helvetica",Arial,sans-serif;
+	font-weight: bold;
+	color: rgb(80, 82, 80);
+}
 
 .rowLoginPanel
 {
@@ -54,13 +64,12 @@ html, body, .containerPanel, .loginPanel, .imagePanel
 	margin: 0;
 }
 
+/*Moví esto */
 .headerText
 {
-	font: normal bold 20px/30px verdana;
-	/*font-size: 3vw;*/
-	font-size: 2vw;
-	margin:5% 0;
-	color: #f9f3f2;
+	font-family: "Helvetica",Arial,sans-serif;
+	font-size: 3vw;
+	color: rgb(118, 204, 177);
 }
 
 .logoRow
@@ -72,25 +81,41 @@ html, body, .containerPanel, .loginPanel, .imagePanel
 
 .logo
 {
-	height: 100%;
-background: url("../images/backgroundImage1.png") no-repeat ; 
+height: 100%;
+background: url("../images/logo.png") no-repeat ; 
 background-size: 100%;
 padding: 0px;
 }
 
+/*Moví esto */
 .btnLogin
 {
-	background-color: #78c9af;
 	font-size: 2vw;
-	color: #f9f3f2;
+	/*color: #f9f3f2;*/
 	margin-bottom: 1vw;
 }
 
+/*Moví esto*/
+.formLogIn .form-control
+{
+	background-color: rgb(209, 244, 233);
+}
+
+/*Moví esto*/
+.formLogIn .form-group label
+{
+	font-family: "Helvetica",Arial,sans-serif;
+	font-size: 1.5vw;
+	color: rgb(118, 204, 177);
+}
+
+/*Moví esto*/
 .loginPanel p
 {
 	margin: 3% 0;
 	color: #d3ece4;
 	font-size: 1.5vw;
+	cursor: pointer;
 }
 
 .loginPanel a
@@ -122,8 +147,6 @@ body
 {
 	margin-top: 70px;
 }
-
-.center-pills { display: inline-block; }
 
 .nav-pills>li.active>a
 {
