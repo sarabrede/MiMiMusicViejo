@@ -177,6 +177,7 @@ background: url("../images/backgroundImage1.png") no-repeat center center fixed;
 	background-color: rgba(80, 82, 80, .25);
 	height: 90%;
 	width: 95%;
+	overflow: auto;
 }
 
 
