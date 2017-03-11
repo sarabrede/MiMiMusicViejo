@@ -52,7 +52,7 @@
 	display: block;
 	color: #444444;
 	font-family: "Helvetica",Arial,sans-serif;
-	font-size: 2vmin;
+	font-size: 4.1vmin;
 	font-weight: bold;
 }
 
@@ -63,9 +63,23 @@
 	display: block;
 	color: #666;
 	font-family: "Centhury Gothic",Arial, sans-serif;
-	font-size: 1.5vmin;
+	font-size: 3.5vmin;
 	font-style: italic;
 }
+
+@media screen and (min-width: 768px)
+{
+	.amazingaudioplayer .amazingaudioplayer-title
+	{
+		font-size: 2.4vmin;
+	}
+
+	.amazingaudioplayer .amazingaudioplayer-info
+	{
+		font-size: 1.9vmin;
+	}	
+}
+
 
 .amazingaudioplayer .amazingaudioplayer-info-clear {
 }
@@ -304,6 +318,3 @@
 .amazingaudioplayer .amazingaudioplayer-tracklist-clear {
 	clear: both;
 }
-
-
-
