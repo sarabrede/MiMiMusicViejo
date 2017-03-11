@@ -14,6 +14,11 @@ html, body, .containerPanel, .loginPanel, .imagePanel
 	color: rgb(80, 82, 80);
 }
 
+.form-control
+{
+	background-color: rgb(209, 244, 233);
+}
+
 /*Login Panel*/
 .rowLoginPanel
 {
@@ -48,12 +53,12 @@ html, body, .containerPanel, .loginPanel, .imagePanel
 
 	.logo
 	{
-	background: url("../images/logo.png") no-repeat ; 
-	width: 80%;
-	height:100%;
-	background-size: 100%;
-	padding: 0px;
-	margin: auto auto;
+		background: url("../images/logo.png") no-repeat ; 
+		width: 80%;
+		height:100%;
+		background-size: 100%;
+		padding: 0px;
+		margin: auto auto;
 	}
 
 	@media screen and (min-width: 768px)
@@ -90,11 +95,6 @@ html, body, .containerPanel, .loginPanel, .imagePanel
 		.formLogIn .form-group{
 			margin: 3vh 0%;
 		}
-	}
-
-	.formLogIn .form-control
-	{
-		background-color: rgb(209, 244, 233);
 	}
 
 	.formLogIn .form-group label
@@ -194,9 +194,35 @@ body
 	border-bottom: 1px solid;
 }
 
+
+.headerLogo
+{
+	height: 50px;
+}
+
+.navbar-header{
+	height: 100%;
+}
+
+.headerLogo a
+{
+	height: 100%;
+}
+.logoNav
+{
+	height: 100%;
+	width: 100%;
+}
+
 .contenido
 {
 	margin-top: 70px;
+}
+
+.nav-pills>li>a
+{
+	border: 1.5px groove rgb(80, 82, 80);
+	border-radius: 10px;
 }
 
 .nav-pills>li.active>a
@@ -221,13 +247,19 @@ body
 
 .dropdown-menu {
     width: 30vw;
-    background-color: rgb(249, 243, 242);
+    background-color: rgb(80, 82, 80);
+    border: 5px inset rgb(249, 243, 242);
 }
 
 .dropdown-menu input
 {
 	width: 90%;
 	margin: 0px auto;
+}
+
+.dropdown-menu .dropdown-header
+{
+	color: #78c9af;
 }
 
 .dropdown-menu .btn
@@ -239,8 +271,8 @@ body
 
 .searchForm
 {
-	/*margin-left: 50%;
-	width: 200% !important;*/
+	/*margin-left: 50%;*/
+	width: 200% !important;
 }
 
 .col-sm-2, .col-sm-6, .col-sm-3
